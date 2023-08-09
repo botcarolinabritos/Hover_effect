@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(177, 5, 5);
+}
+.container{
+    width: 222px;
+    height: 242px;
+    margin: 0 auto;
+    background-image: url(./face02.png);
+}
+.container img:hover{
+    transform: scale(1.5);
+}
