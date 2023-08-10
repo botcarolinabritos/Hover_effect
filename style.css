@@ -10,13 +10,14 @@ body{
     width: 230px;
     height: 330px;
     margin: 0 auto;
-    margin-top: 150px;    background-image: url(./dog02.png);
+    margin-top: 80px;
+    background-image: url(./dog02.png);
     background-repeat: no-repeat;
     display: flex;
 }
-.container img{
+/* .container img{
     align-items: center;
-}
+} */
 img:hover{
     opacity: 0;
 }
