@@ -4,14 +4,23 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(177, 5, 5);
+    /* background-color: rgb(177, 5, 5); */
 }
 .container{
-    width: 222px;
-    height: 242px;
+    width: 230px;
+    height: 330px;
     margin: 0 auto;
-    background-image: url(./face02.png);
+    margin-top: 150px;    background-image: url(./dog02.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
-.container img:hover{
-    transform: scale(1.5);
+.container img{
+    align-items: center;
+}
+img:hover{
+    opacity: 0;
+}
+img{
+    width: 230px;
+    height: 330px;
 }
