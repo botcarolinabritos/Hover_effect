@@ -3,9 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    /* background-color: rgb(177, 5, 5); */
-}
 .container{
     width: 230px;
     height: 330px;
@@ -15,9 +12,6 @@ body{
     background-repeat: no-repeat;
     display: flex;
 }
-/* .container img{
-    align-items: center;
-} */
 img:hover{
     opacity: 0;
 }
